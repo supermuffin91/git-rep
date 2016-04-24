@@ -10,4 +10,8 @@ private:
 public:
 	Dog (const std::string new_name, const int new_age);
 	void bark ();
+	Dog ();
+	~Dog();
+	void setName(const std::string new_name);
+	void setAge (const int new_age);
 };
